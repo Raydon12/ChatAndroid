@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:padding="10dp"
+    tools:context=".Adapter.UserAdapter"
+>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"
+        android:background="@mipmap/ic_launcher" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_on"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="10dp"
+        app:civ_border_color="@color/vert"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="30dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_off"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="10dp"
+        android:visibility="gone"
+        app:civ_border_color="@color/Rouge"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="30dp"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/pseudo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_toRightOf="@id/circleImageView"
+        android:layout_toEndOf="@id/circleImageView"
+        android:layout_centerVertical="true"
+
+        android:text="TextView"
+        android:textColor="@color/blanc"
+        android:textSize="19sp" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"/>
+
+</LinearLayout>
+
+</RelativeLayout>

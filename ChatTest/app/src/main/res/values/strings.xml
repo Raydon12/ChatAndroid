@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChatTest</string>
+    <string name="btn_main_add">add</string>
+    <string name="tv_main_receipt_msg">Message</string>
+    <string name="login_et_mail">Adresse Email</string>
+    <string name="login_et_mdp">Mot de passe</string>
+    <string name="login_success_sign">Mazel Tov !</string>
+    <string name="login_fail_sign">Erreur , veuillez créer un compte</string>
+    <string name="et_register_email">Email</string>
+    <string name="register_et_pwd">Password</string>
+    <string name="btn_register_ok">Valider</string>
+    <string name="btn_register_back">Back</string>
+    <string name="et_register_pseudo">Pseudo</string>
+    <string name="hint_msg">Entrez votre message</string>
+    <string name="channel_name">message</string>
+    <string name="channel_description">test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
